@@ -1,0 +1,7 @@
+@font-face { font-family: 'videojs-airplayButton'; src: url("fonts/airplayButton.eot"); src: url("fonts/airplayButton.eot?#iefix") format("embedded-opentype"), url("fonts/airplayButton.ttf") format("truetype"), url("fonts/airplayButton.woff") format("woff"), url("fonts/airplayButton.svg") format("svg"); font-weight: normal; font-style: normal; }
+
+.vjs-airplay-control { font-family: 'videojs-airplayButton'; float: right; cursor: pointer; }
+
+.vjs-airplay-control:before, .vjs-v6 .vjs-airplay-control .vjs-icon-placeholder::before { content: "\e900"; }
+
+.vjs-v6 .vjs-airplay-control:before { content: none; }

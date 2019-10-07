@@ -1,0 +1,96 @@
+@charset "utf-8";
+/* CSS Document */
+/* -----------------------------------------------------------------------
+
+ Medioworks Tuber Social Video Theme Framework 1.0.1
+ © Copyright 2013 - Design and Sitebuild
+ Web - www.medioworks.com
+ Envato Exclusive Author - http://themeforest.net/user/MedioWorks
+
+----------------------------------------------------------------------- */
+
+/* ie.css */
+body {text-align:center;}
+.container-blank {width:960px; height:207px; position:relative;margin:0 auto; background:none;}
+.column, .span-1, .span-2, .span-3, .span-4, .span-5, .span-6, .span-7, .span-8, .span-9, .span-10, .span-11, .span-12, .span-13, .span-14, .span-15, .span-16, .span-17, .span-18, .span-19, .span-20, .span-21, .span-22, .span-23, .span-24, .span-30 {float:left;margin-right:40px;}
+* html .column, * html .span-1, * html .span-2, * html .span-3, * html .span-4, * html .span-5, * html .span-6, * html .span-7, * html .span-8, * html .span-9, * html .span-10, * html .span-11, * html .span-12, * html .span-13, * html .span-14, * html .span-15, * html .span-16, * html .span-17, * html .span-18, * html .span-19, * html .span-20, * html .span-21, * html .span-22, * html .span-23, * html .span-24 {display:inline;overflow-x:hidden;}
+* html legend {margin:0px -8px 16px 0;padding:0;}
+sup {vertical-align:text-top;}
+sub {vertical-align:text-bottom;}
+html>body p code {*white-space:normal;}
+hr {margin:-8px auto 11px;}
+img {-ms-interpolation-mode:bicubic;}
+.clearfix, .container {display:inline-block;}
+* html .clearfix, * html .container {height:1%;}
+fieldset {padding-top:0;}
+legend {margin-top:-0.2em;margin-bottom:1em;margin-left:-0.5em;}
+textarea {overflow:auto;}
+label {vertical-align:middle;position:relative;top:-0.25em;}
+input.text, input.title, textarea {background-color:#fff;border:1px solid #bbb;}
+input.text:focus, input.title:focus {border-color:#666;}
+input.text, input.title, textarea, select {margin:0.5em 0;}
+input.checkbox, input.radio {position:relative;top:.25em;}
+form.inline div, form.inline p {vertical-align:middle;}
+form.inline input.checkbox, form.inline input.radio, form.inline input.button, form.inline button {margin:0.5em 0;}
+button, input.button {position:relative;top:0.25em;}
+
+.nmargin {margin-right:25px; float:left;}
+.cmargin {margin-right:20px; float:left;}
+.last {margin-right:0;}
+.span-1 {width:30px;}
+.span-2 {width:70px;}
+.span-3 {width:110px;}
+.span-g-1 {width:106px; float:left; margin-right:29px;}
+.span-g-2 {width:76px; float:left; margin-right:29px;}
+.span-4 {width:150px;}
+.span-5 {width:190px;}
+.span-6 {width:440px;}
+.span-7 {width:290px; float:right;}
+.span-7-1 {width:288px; float:left;}
+.span-8 {width:280px;}
+.span-8-1 {width:290px; float:left; position:relative;}
+.span-9 {width:200px;}
+.span-10 {width:390px;}
+.span-11 {width:430px;}
+.span-12 {width:470px;}
+.span-13 {width:510px;}
+.span-14 {width:550px;}
+.span-15 {width:600px;}
+.span-16 {width:630px;}
+.span-17 {width:670px;}
+.span-18 {width:710px;}
+.span-19 {width:750px;}
+.span-20 {width:790px;}
+.span-21 {width:830px;}
+.span-22 {width:870px;}
+.span-23 {width:910px;}
+.span-24 {width:100%;margin-right:0;}
+.span-cat {float:left; width:100%; margin-bottom:5px; position: relative;}
+.no-margin {margin:0px !important;}
+
+.span-25 {width:244px; margin: 32px 0px 0px 15px; float:left;}
+.span-26 {width:480px; margin: 32px 0px 0px 0px; float:right;}
+
+.span-27 {width:100%; float:left; margin:0px 0px 30px 0px;}
+.span-28 {width:100%; float:left; height:auto;}
+.span-28-2 {width:auto; float:left; height:auto; margin:0px 10px 10px 0px;}
+.span-28-3 {width:470px; float:left; height:auto; margin:0px;}
+.span-28-3 p {float:left; width:100%; margin: 0px 0px 10px 0px; font-size:12px; font-weight:lighter; line-height:18px; color:#545454; text-align:justify; }
+.span-29 {width:960px; height:207px; margin-left: auto;
+    margin-right: auto;
+	padding:0px 0px 0px 0px;
+	float:none; position: relative;}
+.span-30 {width:420px;}
+.span-31 {width:270px; float:left; border-left:3px solid #b1d928; padding: 0px 0px 0px 15px;}
+.span-ads {width:125px; height:125px; float:left; }
+
+div.c7 {float:left; width:100%;}
+div.c6 {margin: 0px 0px 0px 10px;}
+div.c5 {margin: 0px 15px 0px 10px;}
+div.c4 {margin: 0px 0px 20px 10px;}
+div.c3 {margin: 0px 15px 20px 10px;}
+div.c2 {width:100px; float:right; background-color:#fff;}
+div.c1 {float: left; margin: 10px 0px 20px 0px; width: 100%}
+
+#span-sidebar {display: inline; zoom: 1; min-height:100% !important; height:100% !important; }
+#span-mainbox {display: inline; zoom: 1;}
