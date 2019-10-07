@@ -4,3 +4,5 @@ rm -rf /var/www/html
 git clone https://github.com/tweakunwanted/OpenXC-Player /var/www/html
 rm -rf !$/.git
 rm -rf /var/www/html/.gitattributes
+rm -rf /var/www/html/install.sh
+rm -rf /var/www/html/README.md
