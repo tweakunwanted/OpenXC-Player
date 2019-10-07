@@ -18,4 +18,6 @@ define('IP','http://domain.com:80');
 
 Put your playlist DNS there!
 
+Access the web interface on http://IP
+
 Enjoy and don't forget to contribute back if this helped you :)
