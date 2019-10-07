@@ -3,7 +3,7 @@ Open source web player compatilhe with OpenXC
 
 ### How to install
 
-Use Ubuntu 18.04 and run the following:
+Use a clean Ubuntu 18.04 (not running any other OpenXC service) and run the following:
 
 ```sh
 curl -s https://raw.githubusercontent.com/tweakunwanted/OpenXC-Player/master/install.sh | sudo bash
