@@ -22,6 +22,14 @@ Access the web interface on http://IP
 
 Enjoy and don't forget to contribute back if this helped you :)
 
+#### Custom domain
+
+Edit `/etc/apache2/sites-available/000-default.conf` and add the following above "DocumentRoot":
+
+```
+ServerName domain.com
+```
+
 ### Screenshots
 
 ![image](https://user-images.githubusercontent.com/56216907/66614072-f1c31e80-eb9d-11e9-93ad-81610630685a.png)
