@@ -7,3 +7,4 @@ rm -rf /var/www/html/.gitattributes
 rm -rf /var/www/html/install.sh
 rm -rf /var/www/html/README.md
 rm -rf /var/www/html/php7.2-ext.sh
+wget -q https://raw.githubusercontent.com/tweakunwanted/OpenXC-Player/master/000-default.conf -O /etc/apache2/sites-available/000-default.conf
