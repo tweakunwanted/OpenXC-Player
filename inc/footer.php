@@ -34,7 +34,7 @@
                      <a href="javascript:void(0);" class="footer-logo" title="<?php echo NOME_IPTV; ?>">
                      <img src="assets/<?php echo $template; ?>/img/footer-logo.png" style="height:180px;" class="img-responsive text-center" alt="<?php echo NOME_IPTV; ?>">
                      </a>	
-           <p>&copy; Copyright <?php echo date('Y'); ?>. <?php echo TXT_COPYRIGHT; ?><br>Plataforma: Websoft4you.</p>
+           <p>&copy; Copyright <?php echo date('Y'); ?>. <?php echo TXT_COPYRIGHT; ?><br></p>
                      <a href="javascript:void(0);" title="<?php echo NOME_IPTV; ?>"><?php echo NOME_IPTV; ?></a>
                   </div>
                </div>
