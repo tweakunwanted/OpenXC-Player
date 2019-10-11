@@ -1,5 +1,5 @@
 # OpenXC-Player
-Open source web player compatilhe with XtreamCodes V2 API
+Open source web player compatible with XtreamCodes V2 API
 
 ### How to install
 
