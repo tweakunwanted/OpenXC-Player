@@ -4,8 +4,7 @@
 	  <meta name="mobile-web-app-capable" content="yes"/>
 	  <meta name="apple-mobile-web-app-capable" content="yes"/>
 	  <meta name="viewport" content="target-densitydpi=device-dpi"/>	
-      <meta name="description" content="<?php echo NOME_IPTV; ?>"/>
-      <meta name="author" content="AplicativoMobi - websoft4you@gmail.com - Painel - Aplicativos e Players"/>
+      <meta name="description" content="<?php echo NOME_IPTV; ?>"/>      
       <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
       <link rel="icon" type="image/png" href="assets/<?php echo $template; ?>/img/favicons.png" />
       <title><?php echo NOME_IPTV; ?></title>
