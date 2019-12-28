@@ -44,7 +44,7 @@ define('TXT_DIRETOR','Sutradara');
 define('TXT_ELENCO','Daftar');
 define('TXT_GENERO','Jenis Kelamin');
 define('TXT_FILMES_SUGESTAO','Film Rekomendasi');
-define('TXT_CANAIS_SUGESTAO','Channel Serupa');
+define('TXT_CANAIS_SUGESTAO','Channel Lainnya');
 define('TXT_ASSINATURA','Berlangganan');
 define('TXT_MES','/ Bulan');
 define('TXT_MOEDA','IDR');
