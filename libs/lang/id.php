@@ -28,7 +28,7 @@ define('MENU_RENOVAR','Perpanjang akun.');
 define('MENU_SAIR','Keluar');
 
 define('TXT_BEMVINDO','Selamat datang');
-define('TXT_TELAS','Layar yang dijinkan');
+define('TXT_TELAS','Koneksi Maksimal');
 define('TXT_VALIDADE','Akses Valid hingga');
 define('TXT_RESTAM','Sisa Durasi');
 define('TXT_SERIES','Seri');
