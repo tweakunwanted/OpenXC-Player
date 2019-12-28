@@ -23,13 +23,14 @@ define('AO_VIVO','Live');
 define('MENU_TV_AO_VIVO','Live TV');
 define('MENU_HOME','Home');
 define('MENU_SERIES','TV Seri');
+define('MENU_FILMES','Film / Video On Demand');
 define('MENU_RENOVAR','Perpanjang akun.');
 define('MENU_SAIR','Keluar');
 
 define('TXT_BEMVINDO','Selamat datang');
 define('TXT_TELAS','Layar yang dijinkan');
 define('TXT_VALIDADE','Akses Valid hingga');
-define('TXT_RESTAM','Kiri');
+define('TXT_RESTAM','Sisa Durasi');
 define('TXT_SERIES','Seri');
 define('TXT_SERIE','seri');
 define('TXT_TEMPORADA','Musim');

@@ -23,6 +23,7 @@ define('AO_VIVO','Ao Vivo');
 define('MENU_TV_AO_VIVO','TV ao Vivo');
 define('MENU_HOME','Home');
 define('MENU_SERIES','Séries');
+define('MENU_FILMES','Filmes');
 define('MENU_RENOVAR','Renovar Assinatura');
 define('MENU_SAIR','Sair');
 
