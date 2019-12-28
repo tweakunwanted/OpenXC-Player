@@ -7,6 +7,8 @@ define('IP','http://domain.com:80');
 //pink, aqua, orange or blue themes
 $template = 'blue'; 
 
+define('lang','pt');
+
 // WhatsApp Number
 define("WHATSAPP", ''); //Numero WhatsApp
 
