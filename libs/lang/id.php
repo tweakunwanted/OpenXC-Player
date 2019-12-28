@@ -48,6 +48,7 @@ define('TXT_CANAIS_SUGESTAO','Channel Lainnya');
 define('TXT_ASSINATURA','Berlangganan');
 define('TXT_MES','/ Bulan');
 define('TXT_MOEDA','IDR');
+define('TXT_DIAS', 'Hari');
 
 define('TAG_VOD','Video On Demand');
 define('TXT_COPYRIGHT',' All Rights Reserved.');

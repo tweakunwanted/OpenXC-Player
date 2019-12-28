@@ -48,6 +48,7 @@ define('TXT_CANAIS_SUGESTAO','Canais Semelhantes');
 define('TXT_ASSINATURA','Assinatura');
 define('TXT_MES','/ Mês');
 define('TXT_MOEDA','R$');
+define('TXT_DIAS', 'Dias');
 
 define('TAG_VOD','Vods');
 define('TXT_COPYRIGHT',' All Rights Reserved.');
