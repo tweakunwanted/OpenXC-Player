@@ -25,7 +25,7 @@ if($_REQUEST['op'] == 'criarteste') {
 	$tipoxtream = 'trial';
 	$usuario_xtream = time(); // Gerar com Time não Bugar o Xtream
 	
-	$reseller_notes = "Teste Automatico via WebPlayer: $nome - $email $whatsapp";
+	$reseller_notes = EMAIL_HEADER . " $nome - $email $whatsapp";
 
 	$ch = curl_init();
 	$timeout = 15;

@@ -49,9 +49,10 @@ define('TXT_ASSINATURA','Berlangganan');
 define('TXT_MES','/ Bulan');
 define('TXT_MOEDA','IDR');
 define('TXT_DIAS', 'Hari');
+define('TXT_TESTE_GRATIS_AGORA','Uji Coba Gratis Sekarang.');
 
 define('TAG_VOD','Video On Demand');
-define('TXT_COPYRIGHT',' All Rights Reserved.');
+define('TXT_COPYRIGHT',' Seluruh Hak Cipta dilindungi.');
 
 define('ERROR_FORMATO_VIDEO','Maaf browser Anda belum mendukung format video ini');
 define('ERROR_FORMATO_VIDEO_DESC','Maaf atas ketidaknyamanan ini, beberapa browser belum mendukung semua format video yang tersedia.');
@@ -66,3 +67,8 @@ define('DESCRICAO_PLANOS','<li> ± 6.000 Saluran, Film & Seri </li>
 <li> Film Box Office, Olahraga dan Keagamaan </li>
 <li> Saluran Brazil </li>
 <li> Tonton dari manapun</li>');
+
+define('EMAIL_HEADER','Pesan Otomatis via WebPlayer:');
+define('MSG_ERROR_INVALID_LOGIN','<b>Username / Password Salah</b> Data tidak ada dalam sistem.');
+define('MSG_ERROR_BLOCKED','<b>PENGGUNA TERKUNCI</b> Maaf, pengguna Anda diblokir atau kedaluwarsa, silakan hubungi tim kami.');
+define('MSG_ERROR_TESTE','<b>Terjadi Kesalahan</b> Maaf Anda telah pernah meminta pengujian pada sistem kami.');

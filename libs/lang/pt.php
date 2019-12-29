@@ -49,6 +49,7 @@ define('TXT_ASSINATURA','Assinatura');
 define('TXT_MES','/ Mês');
 define('TXT_MOEDA','R$');
 define('TXT_DIAS', 'Dias');
+define('TXT_TESTE_GRATIS_AGORA','Teste Grátis Agora');
 
 define('TAG_VOD','Vods');
 define('TXT_COPYRIGHT',' All Rights Reserved.');
@@ -66,3 +67,9 @@ define('DESCRICAO_PLANOS','<li>±6.000  Canais, Filmes e Séries</li>
                                 <li>Desenhos, Esportes e Religiosos</li>
                                 <li>Canais Brasileiros</li>
                                 <li>Assista Onde Quiser</li>');
+
+define('EMAIL_HEADER','Teste Automatico via WebPlayer:');
+
+define('MSG_ERROR_INVALID_LOGIN','<b>DADOS INVÁLIDOS</b> Desculpe não foi possível realizar seu login, dados não encontrados no sistema.');
+define('MSG_ERROR_BLOCKED','<b>USUÁRIO BLOQUEADO</b> Desculpe seu usuário esta bloqueado ou vencido entre em contato com o suporte.');
+define('MSG_ERROR_TESTE','<b>OCORREU UM ERRO</b> Desculpe você já solicitou um teste em nosso sistema.');

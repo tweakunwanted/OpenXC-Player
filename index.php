@@ -21,7 +21,7 @@ include("Xtream_api.php");
             <div class="col-lg-3 col-md-6 col-sm-12">
                <div class="right-center">
                <?php if(ATIVAR_TESTE == 1) { ?>
-                  <button type="button" class="access-btn" data-toggle="modal" data-target="#enquirypopup">Teste Grátis Agora</button>
+                  <button type="button" class="access-btn" data-toggle="modal" data-target="#enquirypopup"><?php echo TXT_TESTE_GRATIS_AGORA; ?></button>
                   <?php } ?>
                </div>
             </div>
@@ -48,13 +48,13 @@ include("Xtream_api.php");
                               
                               <div class="col-md-12 login-header">
         <?php if($_GET['sess'] == 'teste') { ?>
-        <div class="alert alert-danger"><b>OCORREU UM ERRO</b> Desculpe você já solicitou um teste em nosso sistema.</div>                         
+        <div class="alert alert-danger"><?php echo MSG_ERROR_TESTE;?></div>                         
         <?php } ?>
         <?php if($_GET['sess'] == 'block') { ?>
-        <div class="alert alert-danger"><b>USUÁRIO BLOQUEADO</b> Desculpe seu usuário esta bloqueado ou vencido entre em contato com o suporte.</div> 
+        <div class="alert alert-danger"><?php echo MSG_ERROR_BLOCKED; ?></div> 
         <?php } ?>
         <?php if($_GET['sess'] == 'erro') { ?>
-        <div class="alert alert-danger"><b>DADOS INVÁLIDOS</b> Desculpe não foi possível realizar seu login, dados não encontrados no sistema.</div> 
+        <div class="alert alert-danger"><?php echo MSG_ERROR_INVALID_LOGIN; ?></div> 
         <?php } ?>      
                             
                               </div>
