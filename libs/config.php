@@ -7,7 +7,8 @@ define('IP','http://domain.com:80');
 //pink, aqua, orange or blue themes
 $template = 'blue'; 
 
-define('lang','pt');
+// change language
+define('lang','en');
 
 // WhatsApp Number
 define("WHATSAPP", ''); //Numero WhatsApp
@@ -64,18 +65,3 @@ define("AVISO_ADULTOS_FILME", 'FILMES: ADULTOS'); // Should be the same as XC
 // %VENCIMENTO%, %NOME%, %USUARIO%, %SENHA%
 //
 // Ask a developer for help if needed.
-
-
-define("CORPO_EMAIL", "Olá %NOME%, seu teste foi criado com sucesso.<br><br>
-    Você pode fazer seu login em nosso webplayer utilizando os seguintes dados:<br>
-    <br>
-    Usuário: <b>%USUARIO%</b> <br>
-    Senha: <b>%SENHA%</b> <br><br><br>
-    Você também pode testar nossa lista fazendo o download abaixo:<br><br>
-    %URL_LISTA%<br><br><br>
-    Aproveite seu teste é valido até: %VENCIMENTO%<br><br><br>
-    
-    Obrigado<br>
-    WebPlayer.
-    
-    ");

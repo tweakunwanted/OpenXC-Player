@@ -73,3 +73,16 @@ define('EMAIL_HEADER','Teste Automatico via WebPlayer:');
 define('MSG_ERROR_INVALID_LOGIN','<b>DADOS INVÁLIDOS</b> Desculpe não foi possível realizar seu login, dados não encontrados no sistema.');
 define('MSG_ERROR_BLOCKED','<b>USUÁRIO BLOQUEADO</b> Desculpe seu usuário esta bloqueado ou vencido entre em contato com o suporte.');
 define('MSG_ERROR_TESTE','<b>OCORREU UM ERRO</b> Desculpe você já solicitou um teste em nosso sistema.');
+define("CORPO_EMAIL", "Olá %NOME%, seu teste foi criado com sucesso.<br><br>
+    Você pode fazer seu login em nosso webplayer utilizando os seguintes dados:<br>
+    <br>
+    Usuário: <b>%USUARIO%</b> <br>
+    Senha: <b>%SENHA%</b> <br><br><br>
+    Você também pode testar nossa lista fazendo o download abaixo:<br><br>
+    %URL_LISTA%<br><br><br>
+    Aproveite seu teste é valido até: %VENCIMENTO%<br><br><br>
+    
+    Obrigado<br>
+    WebPlayer.
+    
+    ");

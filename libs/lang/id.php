@@ -72,3 +72,16 @@ define('EMAIL_HEADER','Pesan Otomatis via WebPlayer:');
 define('MSG_ERROR_INVALID_LOGIN','<b>Username / Password Salah</b> Data tidak ada dalam sistem.');
 define('MSG_ERROR_BLOCKED','<b>PENGGUNA TERKUNCI</b> Maaf, pengguna Anda diblokir atau kedaluwarsa, silakan hubungi tim kami.');
 define('MSG_ERROR_TESTE','<b>Terjadi Kesalahan</b> Maaf Anda telah pernah meminta pengujian pada sistem kami.');
+define("CORPO_EMAIL", "Halo %NOME%, akun trial kamu telah berhasil dibuat.<br><br>
+    Silahkan gunakan akun di bawah untuk mencoba:<br>
+    <br>
+    Username: <b>%USUARIO%</b> <br>
+    Password: <b>%SENHA%</b> <br><br><br>
+    Anda juga dapat menikmati dengan mengunduh URL Playlist dibawah:<br><br>
+    %URL_LISTA%<br><br><br>
+    Selamat menikmati masa uji coba kamu, hingga : %VENCIMENTO%<br><br><br>
+    
+    Terimakasih<br>
+    WebPlayer.
+    
+    ");
