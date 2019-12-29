@@ -25,7 +25,8 @@ Enjoy and don't forget to contribute back if this helped you :)
 For change to another language 
 just change the define lang to another lang id ( right now only support : pt, en & id)
 ```
-define('lang','pt');
+//change language
+define('lang','en');
 ```
 
 #### Custom domain
