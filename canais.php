@@ -69,14 +69,12 @@ $adulto = trim($_REQUEST['adulto']);
 	//shuffle($output);
 	$i = 1;
 	foreach($output as $index) {
-		
-		print_r(strlen(strval($index['stream_icon'])));
 		$iss = $_REQUEST['sessao'];
 		$idnum = $index['num'];
 		$canal_nome = $index['name'];
 		$canal_type = $index['stream_type'];
 		$canal_id = $index['stream_id'];
-		$canal_img = (isset($index['stream_icon']) && strlen(strval($index['stream_icon']) > 0)) ? $index['stream_icon'] : "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ac/No_image_available.svg/300px-No_image_available.svg.png";	
+		$canal_img = (isset($index['stream_icon']) && (strlen(strval($index['stream_icon']) > 0))) ? $index['stream_icon'] : "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ac/No_image_available.svg/300px-No_image_available.svg.png";	
 	?>
                            <article class="col-lg-2 col-md-6 col-sm-4">
                               <!-- POST L size -->
