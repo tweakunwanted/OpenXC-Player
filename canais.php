@@ -70,7 +70,7 @@ $adulto = trim($_REQUEST['adulto']);
 	$i = 1;
 	foreach($output as $index) {
 		
-		
+		print_r(strlen(strval($index['stream_icon'])));
 		$iss = $_REQUEST['sessao'];
 		$idnum = $index['num'];
 		$canal_nome = $index['name'];
