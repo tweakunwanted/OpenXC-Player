@@ -76,7 +76,7 @@ $adulto = trim($_REQUEST['adulto']);
 		$canal_nome = $index['name'];
 		$canal_type = $index['stream_type'];
 		$canal_id = $index['stream_id'];
-		$canal_img = $index['stream_icon'];	
+		$canal_img = (isset($index['stream_icon']) && strlen($index['stream_icon'] > 0)) ? $index['stream_icon'] : urlencode("https://upload.wikimedia.org/wikipedia/commons/thumb/a/ac/No_image_available.svg/300px-No_image_available.svg.png");	
 	?>
                            <article class="col-lg-2 col-md-6 col-sm-4">
                               <!-- POST L size -->
