@@ -90,7 +90,7 @@ $idcatg = trim($_REQUEST['catg']);
 		$canal_nome = $index['name'];
 		$canal_type = $index['stream_type'];
 		$canal_id = $index['stream_id'];
-		$canal_img = (strlen($index['stream_icon'] > 0)) ? $index['stream_icon'] : "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ac/No_image_available.svg/300px-No_image_available.svg.png";	
+		$canal_img = (isset($index['stream_icon'])) ? $index['stream_icon'] : "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ac/No_image_available.svg/300px-No_image_available.svg.png";	
 		$category_id = $index['category_id'];
 	?>
                         <li class="fa fa-chevron-right"><a href="canal.php?sessao=<?php echo $_GET['sessao']; ?>&stream=<?php echo $canal_id; ?>&streamtipo=<?php echo $canal_type; ?>&canal=<?php echo urlencode($canal_nome); ?>&img=<?php echo urlencode($canal_img); ?>&catg=<?php echo $category_id; ?>"><?php echo $canal_nome; ?></a></li>
