@@ -35,7 +35,7 @@ if ( !isset($_COOKIE['xstatusm']) ){ echo '<script language="javascript">locatio
                         </li>
                         
                         <li class="dropdown mega-dropdown">
-                           <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Filmes <span class="fa fa-chevron-down pull-right"></span></a>
+                           <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><?php echo MENU_FILMES; ?> <span class="fa fa-chevron-down pull-right"></span></a>
                            <ul class="dropdown-menu">
                            
     <?php

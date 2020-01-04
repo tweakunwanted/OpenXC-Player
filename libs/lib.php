@@ -6,7 +6,7 @@ error_reporting(0);
 ini_set("track_errors","0");
 
 require_once("libs/config.php");
-require_once("libs/idioma.php");
+require_once("libs/lang/".lang.".php");
 
 $vl1 = explode(".",$valor1);
 $vl2 = explode(".",$valor2);

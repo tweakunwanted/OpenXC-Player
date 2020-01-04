@@ -11,6 +11,6 @@
             	$data_inicio = new DateTime(date('Y-m-d'));
     			$data_fim = new DateTime($dsfim);
     			$dateInterval = $data_inicio->diff($data_fim);
-    			echo $dateInterval->days . ' Dias';
+    			echo $dateInterval->days . ' '. TXT_DIAS;
     			?>
             </div>

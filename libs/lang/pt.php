@@ -23,6 +23,7 @@ define('AO_VIVO','Ao Vivo');
 define('MENU_TV_AO_VIVO','TV ao Vivo');
 define('MENU_HOME','Home');
 define('MENU_SERIES','Séries');
+define('MENU_FILMES','Filmes');
 define('MENU_RENOVAR','Renovar Assinatura');
 define('MENU_SAIR','Sair');
 
@@ -47,6 +48,8 @@ define('TXT_CANAIS_SUGESTAO','Canais Semelhantes');
 define('TXT_ASSINATURA','Assinatura');
 define('TXT_MES','/ Mês');
 define('TXT_MOEDA','R$');
+define('TXT_DIAS', 'Dias');
+define('TXT_TESTE_GRATIS_AGORA','Teste Grátis Agora');
 
 define('TAG_VOD','Vods');
 define('TXT_COPYRIGHT',' All Rights Reserved.');
@@ -64,3 +67,22 @@ define('DESCRICAO_PLANOS','<li>±6.000  Canais, Filmes e Séries</li>
                                 <li>Desenhos, Esportes e Religiosos</li>
                                 <li>Canais Brasileiros</li>
                                 <li>Assista Onde Quiser</li>');
+
+define('EMAIL_HEADER','Teste Automatico via WebPlayer:');
+
+define('MSG_ERROR_INVALID_LOGIN','<b>DADOS INVÁLIDOS</b> Desculpe não foi possível realizar seu login, dados não encontrados no sistema.');
+define('MSG_ERROR_BLOCKED','<b>USUÁRIO BLOQUEADO</b> Desculpe seu usuário esta bloqueado ou vencido entre em contato com o suporte.');
+define('MSG_ERROR_TESTE','<b>OCORREU UM ERRO</b> Desculpe você já solicitou um teste em nosso sistema.');
+define("CORPO_EMAIL", "Olá %NOME%, seu teste foi criado com sucesso.<br><br>
+    Você pode fazer seu login em nosso webplayer utilizando os seguintes dados:<br>
+    <br>
+    Usuário: <b>%USUARIO%</b> <br>
+    Senha: <b>%SENHA%</b> <br><br><br>
+    Você também pode testar nossa lista fazendo o download abaixo:<br><br>
+    %URL_LISTA%<br><br><br>
+    Aproveite seu teste é valido até: %VENCIMENTO%<br><br><br>
+    
+    Obrigado<br>
+    WebPlayer.
+    
+    ");

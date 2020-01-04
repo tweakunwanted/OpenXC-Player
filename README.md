@@ -22,6 +22,13 @@ Access the web interface on http://IP
 
 Enjoy and don't forget to contribute back if this helped you :)
 
+For change to another language 
+just change the define lang to another lang id ( right now only support : pt, en & id)
+```
+//change language
+define('lang','en');
+```
+
 #### Custom domain
 
 Edit `/etc/apache2/sites-available/000-default.conf` and add the following above "DocumentRoot":
