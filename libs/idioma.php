@@ -1,4 +1,5 @@
 <?php
+define("NOME_IPTV", "!!!Change ME to your service name!!!");
 define('HOME_BEMVINDO','Welcome');
 define('HOME_TEXTO_BEMVINDO','Welcome to the webplayer, login below.');
 define('HOME_BOTAO_LOGIN','Login');
@@ -22,6 +23,7 @@ define('AO_VIVO','Live');
 
 define('MENU_TV_AO_VIVO','Live TV');
 define('MENU_HOME','Home');
+define("MENU_Film_Title","Films");
 define('MENU_SERIES','Series');
 define('MENU_RENOVAR','Renew Subscription');
 define('MENU_SAIR','Logout');
