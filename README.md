@@ -42,7 +42,7 @@ ServerName domain.com
 
 Edit /var/www/html/libs/idioma.php for the following
 * To use your own service name edit -- define("NOME_IPTV", "YOUR SERVICE NAME HERE");
-* Welcome messgae edit -- define('HOME_TEXTO_BEMVINDO','Welcome to the webplayer, login below.');
+* Welcome message edit -- define('HOME_TEXTO_BEMVINDO','Welcome to the webplayer, login below.');
 
 Change images and design
 * All web player graphics can be found here -- /var/www/html/assets/blue
