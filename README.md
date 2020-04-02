@@ -38,6 +38,18 @@ Edit `/etc/apache2/sites-available/000-default.conf` and add the following above
 ServerName domain.com
 ```
 
+#### Customisation
+
+Edit /var/www/html/libs/idioma.php for the following
+* To use your own service name edit -- define("NOME_IPTV", "YOUR SERVICE NAME HERE");
+* Welcome messgae edit -- define('HOME_TEXTO_BEMVINDO','Welcome to the webplayer, login below.');
+
+Change images and design
+* All web player graphics can be found here -- /var/www/html/assets/blue
+* Swap between Pre-configured tempaltes can eb done in -- /var/www/html/libs/config.php -- $template = 'blue';
+Avialable Templates -- pink, aqua, orange or blue.
+
+
 ### Screenshots
 
 ![image](https://user-images.githubusercontent.com/56216907/66614072-f1c31e80-eb9d-11e9-93ad-81610630685a.png)
