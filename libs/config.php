@@ -21,20 +21,20 @@ define("LINK_PAGAR2", ''); // Link 2
 define("LINK_PAGAR3", ''); // Link 3
 define("LINK_PAGAR4", ''); // Link 4
 
-$nome1 = "Mensal";
+$nome1 = "Monthly";
 $valor1 = "29.90"; // Valor Mensal
-$nome2 = "Trimestral";
+$nome2 = "3 Months";
 $valor2 = "79.90"; // Valor Mensal
-$nome3 = "Semestral";
+$nome3 = "6 Months";
 $valor3 = "129.90"; // Valor Mensal
-$nome4 = "Anual";
+$nome4 = "12 Months";
 $valor4 = "199.90"; // Valor Mensal
 
 // Settings Xtream-Codes CMS 
 
 define("ATIVAR_TESTE", '0');  // 1 = YES / 0 = NO
-define("HORAS", '2');  // Trial Duration in hours
-define("XTREAM_URL", 'https://cms-eu.xtream-codes.com/'); //URL CMS do Xtream-Codes
+define("HORAS", '12');  // Trial Duration in hours
+define("XTREAM_URL", 'https://cms-eu.xtream-codes.cm/'); //URL CMS do Xtream-Codes
 define("XTREAM_USER", ''); //Usuário do Xtream-Codes
 define("XTREAM_PWD", ''); //Senha do Xtream-Codes
 define("XTREAM_PLANO", '1'); //Número do Plano do Xtream-Codes em caso de dúvidas contate o suporte.
