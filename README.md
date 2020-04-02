@@ -40,13 +40,13 @@ ServerName domain.com
 
 #### Customisation
 
-Edit /var/www/html/libs/idioma.php for the following
-* To use your own service name edit -- define("NOME_IPTV", "YOUR SERVICE NAME HERE");
-* Welcome message edit -- define('HOME_TEXTO_BEMVINDO','Welcome to the webplayer, login below.');
+Edit `/var/www/html/libs/idioma.php` for the following
+* To use your own service name edit -- `define("NOME_IPTV", "YOUR SERVICE NAME HERE");`
+* Welcome message edit -- `define('HOME_TEXTO_BEMVINDO','Welcome to the webplayer, login below.');`
 
 Change images and design
-* All web player graphics can be found here -- /var/www/html/assets/blue
-* Swap between Pre-configured tempaltes can eb done in -- /var/www/html/libs/config.php -- $template = 'blue';
+* All web player graphics can be found here -- `/var/www/html/assets/blue`
+* Swap between Pre-configured tempaltes can eb done in -- `/var/www/html/libs/config.php -- $template = 'blue';`
 Avialable Templates -- pink, aqua, orange or blue.
 
 
