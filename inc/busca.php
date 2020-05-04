@@ -1,3 +1,3 @@
 <form>
-<input type="search" id="busca" placeholder="Pesquisar">
+<input type="search" id="busca" placeholder="Search">
 </form>

@@ -41,14 +41,14 @@ define('TXT_CATEGORIAS','Categories');
 define('TXT_DURACAO','Duration');
 define('TXT_FULLSCREEN','Full Screen');
 define('TXT_INFO','Information');
-define('TXT_DIRETOR','Diretor');
+define('TXT_DIRETOR','Director');
 define('TXT_ELENCO','Cast');
 define('TXT_GENERO','Genre');
 define('TXT_FILMES_SUGESTAO','Suggested Films');
 define('TXT_CANAIS_SUGESTAO','Similar Channels');
 define('TXT_ASSINATURA','Subscription');
 define('TXT_MES','/ Month');
-define('TXT_MOEDA','R£');
+define('TXT_MOEDA','£');
 
 define('TAG_VOD','Vods');
 define('TXT_COPYRIGHT',' All Rights Reserved.');
