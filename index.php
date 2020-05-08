@@ -48,14 +48,14 @@ include("Xtream_api.php");
                               
                               <div class="col-md-12 login-header">
         <?php if($_GET['sess'] == 'teste') { ?>
-        <div class="alert alert-danger"><b>OCORREU UM ERRO</b> Sorry you already requested a test on our system.</div>                         
+        <div class="alert alert-danger"><b>Error</b> Sorry you already requested a test on our system.</div>
         <?php } ?>
         <?php if($_GET['sess'] == 'block') { ?>
-        <div class="alert alert-danger"><b>USUÁRIO BLOQUEADO</b> Sorry this username is blocked or expired please contact support.</div> 
+        <div class="alert alert-danger"><b>Blocked/Expired</b> Sorry this username is blocked or expired please contact support.</div>
         <?php } ?>
         <?php if($_GET['sess'] == 'erro') { ?>
-        <div class="alert alert-danger"><b>DADOS INVÁLIDOS</b> Sorry the Username and Password combination is incorrect, please check and try again.</div> 
-        <?php } ?>      
+        <div class="alert alert-danger"><b>Credential Error</b> Sorry, the Username and/or Password is incorrect, please check and try again.</div> 
+        <?php } ?>  
                             
                               </div>
                               <div class="clearfix spacer"></div>
