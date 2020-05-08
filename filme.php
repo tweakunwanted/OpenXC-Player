@@ -98,7 +98,7 @@ $duracao = $output['info']['duration'];
                         <!-- 16:9 aspect ratio -->
         <div class="embed-responsive embed-responsive-16by9 video-embed-box">
         
-        <?php if($exts == 'avi' || $exts == 'mkv') { ?>
+        <?php if($exts == 'xxx') { ?>
         <center><br><br>
         <h4><?php echo ERROR_FORMATO_VIDEO; ?>: <?php echo $exts; ?></h4>
         <br><br>
