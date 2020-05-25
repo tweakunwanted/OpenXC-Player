@@ -50,7 +50,7 @@ Change images and design
 Avialable Templates -- pink, aqua, orange or blue.
 
 
-####NOTE: Chrome and Firefox do nto support MKV or AVI files as standard, this player has been tested with OperaGX which supports MKV.
+#### NOTE: Chrome and Firefox do nto support MKV or AVI files as standard, this player has been tested with OperaGX which supports MKV.
 
 
 ### Screenshots
