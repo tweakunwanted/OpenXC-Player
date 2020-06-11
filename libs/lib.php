@@ -14,7 +14,7 @@ $vl3 = explode(".",$valor3);
 $vl4 = explode(".",$valor4);
 // END
 
-// Funções do Sistema
+// System Functions
 
 function apixtream($url_api){	
 $ch = curl_init();	
@@ -127,7 +127,7 @@ function thor($action, $string) {
     // hash
     $key = hash('sha256', $secret_key);
     
-    // iv - método de criptografia AES-256-CBC espera 16 bytes - senão você receberá um aviso
+    // iv - AES-256-CBC encryption method expects 16 bytes - otherwise you will receive a warning
     $iv = substr(hash('sha256', $secret_iv), 0, 16);
     if ( $action == 'encode' ) {
         $output = openssl_encrypt($string, $encrypt_method, $key, 0, $iv);
